@@ -16,8 +16,8 @@ You can click the Preview link to take a look at your changes.
 ![starts overview](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=burstknight&theme=onedark)
 ![commits overview](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=burstknight&theme=onedark&utcOffset=8)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+<picture align="center">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/burstknight/burstknight/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/burstknight/burstknight/output/github-contribution-grid-snake-dark.svg" />
   <img alt="github-snake" src="github-snake.svg" />
 </picture>
