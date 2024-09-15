@@ -31,15 +31,14 @@ jobs:
           UTC_OFFSET: 8
 
       # For generating snake
-      - name: generate snake-game-from-github-contribution-grid
+      - name: generate github-snake-contribution.svg
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           output: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-      - name: push snake-game-from-github-contribution-grid
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - name: push github-snake-contribution.svg
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
