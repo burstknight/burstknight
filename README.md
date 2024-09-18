@@ -15,8 +15,6 @@
 - 🌱 I’m currently learning 
     * CMake
     * Docker
-- 💞️ I’m looking to collaborate on 
-    * [rafamadriz/friendly-snippets](https://github.com/rafamadriz/friendly-snippets.git) 
 
 <!---
 burstknight/burstknight is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
